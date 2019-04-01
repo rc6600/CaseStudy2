@@ -1,1 +1,10 @@
-stuff
+from numpy import array
+
+def Constant(c):
+    return (array([c]),array([1]))
+>>> pX0 = Constant(13)
+# The PMF of a constant RV
+>>>
+print
+(pX0)
+# Will output (array([13]), array([1]))
